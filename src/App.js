@@ -5,6 +5,7 @@ import MovieList from "./Components/MovieList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
 import MovieDetails from "./Components/MovieDetails";
+import ProductList from "./Components/Product/ProductList";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/products" element={<ProductList />} />
         <Route path="/details/:idmovie" element={<MovieDetails />} />
       </Routes>
     </div>

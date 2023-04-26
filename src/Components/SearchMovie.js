@@ -6,7 +6,7 @@ import { reset, searchBN, searchBR } from "../js/actions/movieActions";
 const SearchMovie = () => {
   const dispatch = useDispatch();
 
-  let searchedrate = useSelector((state) => state.searchedrate);
+  let searchedrate = useSelector((state) => state.mv.searchedrate);
   return (
     <div>
       <input type="text" onChange={(e) => dispatch(searchBN(e.target.value))} />

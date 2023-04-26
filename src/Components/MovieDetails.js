@@ -7,7 +7,7 @@ import { getMovie } from "../js/actions/movieActions";
 const MovieDetails = () => {
   const dispatch = useDispatch();
   const { idmovie } = useParams();
-  let film = useSelector((state) => state.movieDetails);
+  let film = useSelector((state) => state.mv.movieDetails);
   // console.log(film);
   useEffect(() => {
     dispatch(getMovie(idmovie));

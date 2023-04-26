@@ -1,9 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { Rating } from "react-simple-star-rating";
-import { getMovie } from "../js/actions/movieActions";
 
 const MovieCard = ({ movie }) => {
   const { id, name, image, rating, date } = movie;
