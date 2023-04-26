@@ -1,5 +1,0 @@
-export const ADDMOVIE = "ADDMOVIE";
-export const GETMOVIEDETAILS = "GETMOVIEDETAILS";
-export const SEARCHBYNAME = "SEARCHBYNAME";
-export const SEARCHBYRATE = "SEARCHBYRATE";
-export const RESETRATE = "RESETRATE";

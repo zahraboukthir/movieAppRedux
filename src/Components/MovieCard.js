@@ -3,9 +3,8 @@ import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Rating } from "react-simple-star-rating";
 
-const MovieCard = ({ movie }) => {
-  const { id, name, image, rating, date } = movie;
-
+const MovieCard = ({ film }) => {
+  const { id, name, image, rating, date } = film;
   return (
     <div>
       <Card style={{ width: "18rem", margin: "10px 0" }}>
